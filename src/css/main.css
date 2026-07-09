@@ -410,3 +410,56 @@ width: 416px;
 font-size: 20px;
 } 
 }
+/* Contact */
+.contact-container{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 16px;
+        padding: 32px 24px;
+        width: 343px;
+        height: 368px;
+margin-left: auto;
+margin-right: auto;
+}
+.contact-wrapper{
+border: 1px solid rgba(0, 251, 251, 0.15);
+    border-radius: 12px;
+    padding: 88px 16px;
+    width: 295px;
+    height: 304px;
+backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact-link{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.44;
+    color: #00fbfb;
+}
+@media only screen and (min-width: 1440px) {
+.contact-container{
+    background-image: url("/img/contact/desk.png");
+padding: 32px 64px;
+    width: 1312px;
+    height: 499px;
+}
+.contact-wrapper{
+width: 411px;
+    height: 435px;
+padding: 123px 24px;
+}
+.contact-link{
+    margin-top: 16px;
+font-size: 24px;
+}    
+}
