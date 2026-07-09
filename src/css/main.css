@@ -1,0 +1,68 @@
+.home-section{
+background-image: url("/img/home/mob.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+height: 812px;
+}
+.home-wrapper{
+    margin-top: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.home-label{
+border: 1px solid #00fbfb;
+    padding: 8px 16px;
+    width: 343px;
+    height: 31px;
+box-shadow: 0 0 10px  rgba(0, 251, 251, 0.3);
+    background: rgba(255, 255, 255, 0);
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.08;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00fbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-title{
+font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.08;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #00fbfb;
+text-shadow:
+        0 0 20px rgba(0, 251, 251, 0.4),
+        0 0 10px rgba(0, 251, 251, 0.8);
+}
+.home-text{
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+background-image: url("/img/home/desk.png");
+}
+.home-wrapper{
+    margin-top: 280px;
+width: 740px;
+gap: 16px;
+}
+.home-label{
+    width: 370px;
+
+}
+.home-title{
+font-size: 92px;
+}
+.home-text{
+width: 420px;
+}    
+}
