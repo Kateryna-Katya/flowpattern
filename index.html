@@ -16,10 +16,77 @@
     <script type="module" crossorigin src="/flowpattern/index.js"></script>
     <link rel="modulepreload" crossorigin href="/flowpattern/assets/vendor-B_FypTfd.js">
     <link rel="stylesheet" crossorigin href="/flowpattern/assets/vendor-vL0Q9Dr-.css">
-    <link rel="stylesheet" crossorigin href="/flowpattern/assets/styles-CV45eLpU.css">
+    <link rel="stylesheet" crossorigin href="/flowpattern/assets/styles-D6J1To7w.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+            <img src="data:image/png;base64,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" alt="logo" loading="lazy" />
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 30V26.6667H35V30H5ZM5 21.6667V18.3333H35V21.6667H5ZM5 13.3333V10H35V13.3333H5Z" fill="white" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#about">About the Game</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gameplay">Gameplay Experience</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#features">Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#sound">Sound Realms</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#advantages">Advantages</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#reviews">Reviews</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#about">About the Game</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#gameplay">Gameplay Experience</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#features">Features</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#sound">Sound Realms</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#advantages">Advantages</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gallery">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#reviews">Reviews</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#contact">Contact</a>
+        </li>
+    </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -309,7 +376,19 @@
 </section>
     </main>
 
-    
+    <footer class="footer">
+    <div class="container footer-container">
+        <ul class="footer-navigation">
+            <li class="footer-link">
+                <a class="footer-underline" href="privacy.html">Privacy Policy</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-underline" href="terms.html">Terms of Service</a>
+            </li>
+        </ul>
+        <p class="footer-text">© 2026 flowpattern.online — All rights reserved</p>
+    </div>
+</footer>
 
   </body>
 </html>
